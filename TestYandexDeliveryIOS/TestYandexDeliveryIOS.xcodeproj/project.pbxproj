@@ -9,21 +9,54 @@
 /* Begin PBXBuildFile section */
 		84BAE8C428F86548000330A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BAE8C328F86548000330A0 /* AppDelegate.swift */; };
 		84BAE8C628F86548000330A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BAE8C528F86548000330A0 /* SceneDelegate.swift */; };
-		84BAE8C828F86548000330A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BAE8C728F86548000330A0 /* ViewController.swift */; };
 		84BAE8CB28F86548000330A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BAE8C928F86548000330A0 /* Main.storyboard */; };
 		84BAE8CD28F8654C000330A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84BAE8CC28F8654C000330A0 /* Assets.xcassets */; };
 		84BAE8D028F8654C000330A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BAE8CE28F8654C000330A0 /* LaunchScreen.storyboard */; };
+		84BAE8D928F93C61000330A0 /* ModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BAE8D828F93C61000330A0 /* ModuleBuilder.swift */; };
+		84BAE8DB28F93CD7000330A0 /* RouterTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BAE8DA28F93CD7000330A0 /* RouterTabBarViewController.swift */; };
+		84BAE8DD28F93CE8000330A0 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BAE8DC28F93CE8000330A0 /* TabBarViewController.swift */; };
+		84BAE8EB28F93EBE000330A0 /* URLConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BAE8EA28F93EBE000330A0 /* URLConstants.swift */; };
+		84BAE8ED28F93ED9000330A0 /* AlamofireAPIProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BAE8EC28F93ED9000330A0 /* AlamofireAPIProvider.swift */; };
+		84BAE8EF28F93FC6000330A0 /* ProductCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BAE8EE28F93FC6000330A0 /* ProductCategories.swift */; };
+		84BAE8F128F93FD8000330A0 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BAE8F028F93FD8000330A0 /* Products.swift */; };
+		84BAE8F428F93FFC000330A0 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BAE8F228F93FFC000330A0 /* MainMenuViewController.swift */; };
+		84BAE8F528F93FFC000330A0 /* MainMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84BAE8F328F93FFC000330A0 /* MainMenuViewController.xib */; };
+		84BAE8F728F94025000330A0 /* MainMenuViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BAE8F628F94025000330A0 /* MainMenuViewPresenter.swift */; };
+		84BAE8FA28F94050000330A0 /* MainMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BAE8F828F94050000330A0 /* MainMenuTableViewCell.swift */; };
+		84BAE8FB28F94050000330A0 /* MainMenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84BAE8F928F94050000330A0 /* MainMenuTableViewCell.xib */; };
+		84BAE8FD28F9407F000330A0 /* MainMenuViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BAE8FC28F9407F000330A0 /* MainMenuViewController+Extension.swift */; };
+		84BAE90028F941B3000330A0 /* MainMenuRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BAE8FF28F941B3000330A0 /* MainMenuRouter.swift */; };
+		84BAE90328F954C0000330A0 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 84BAE90228F954C0000330A0 /* Alamofire */; };
+		84BAE90628F95A50000330A0 /* UiImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BAE90528F95A50000330A0 /* UiImageView+Extension.swift */; };
+		84BAE90B28F966B2000330A0 /* CategoriesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BAE90928F966B2000330A0 /* CategoriesCollectionViewCell.swift */; };
+		84BAE90C28F966B2000330A0 /* CategoriesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84BAE90A28F966B2000330A0 /* CategoriesCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		84BAE8C028F86548000330A0 /* TestYandexDeliveryIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestYandexDeliveryIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84BAE8C328F86548000330A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84BAE8C528F86548000330A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		84BAE8C728F86548000330A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		84BAE8CA28F86548000330A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84BAE8CC28F8654C000330A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84BAE8CF28F8654C000330A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84BAE8D128F8654C000330A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84BAE8D828F93C61000330A0 /* ModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleBuilder.swift; sourceTree = "<group>"; };
+		84BAE8DA28F93CD7000330A0 /* RouterTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterTabBarViewController.swift; sourceTree = "<group>"; };
+		84BAE8DC28F93CE8000330A0 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		84BAE8EA28F93EBE000330A0 /* URLConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLConstants.swift; sourceTree = "<group>"; };
+		84BAE8EC28F93ED9000330A0 /* AlamofireAPIProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireAPIProvider.swift; sourceTree = "<group>"; };
+		84BAE8EE28F93FC6000330A0 /* ProductCategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCategories.swift; sourceTree = "<group>"; };
+		84BAE8F028F93FD8000330A0 /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
+		84BAE8F228F93FFC000330A0 /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
+		84BAE8F328F93FFC000330A0 /* MainMenuViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenuViewController.xib; sourceTree = "<group>"; };
+		84BAE8F628F94025000330A0 /* MainMenuViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewPresenter.swift; sourceTree = "<group>"; };
+		84BAE8F828F94050000330A0 /* MainMenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuTableViewCell.swift; sourceTree = "<group>"; };
+		84BAE8F928F94050000330A0 /* MainMenuTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenuTableViewCell.xib; sourceTree = "<group>"; };
+		84BAE8FC28F9407F000330A0 /* MainMenuViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainMenuViewController+Extension.swift"; sourceTree = "<group>"; };
+		84BAE8FF28F941B3000330A0 /* MainMenuRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuRouter.swift; sourceTree = "<group>"; };
+		84BAE90528F95A50000330A0 /* UiImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UiImageView+Extension.swift"; sourceTree = "<group>"; };
+		84BAE90928F966B2000330A0 /* CategoriesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesCollectionViewCell.swift; sourceTree = "<group>"; };
+		84BAE90A28F966B2000330A0 /* CategoriesCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoriesCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84BAE90328F954C0000330A0 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,13 +92,157 @@
 			children = (
 				84BAE8C328F86548000330A0 /* AppDelegate.swift */,
 				84BAE8C528F86548000330A0 /* SceneDelegate.swift */,
-				84BAE8C728F86548000330A0 /* ViewController.swift */,
-				84BAE8C928F86548000330A0 /* Main.storyboard */,
+				84BAE8D828F93C61000330A0 /* ModuleBuilder.swift */,
+				84BAE8DA28F93CD7000330A0 /* RouterTabBarViewController.swift */,
+				84BAE8DC28F93CE8000330A0 /* TabBarViewController.swift */,
+				84BAE90428F95A32000330A0 /* Extensions */,
+				84BAE8E828F93E87000330A0 /* Constants */,
+				84BAE90D28F96BC0000330A0 /* Modules */,
+				84BAE8E628F93E42000330A0 /* Services */,
+				84BAE8E528F93E3B000330A0 /* Models */,
+				84BAE8D728F93BE0000330A0 /* Stroryboards */,
 				84BAE8CC28F8654C000330A0 /* Assets.xcassets */,
-				84BAE8CE28F8654C000330A0 /* LaunchScreen.storyboard */,
 				84BAE8D128F8654C000330A0 /* Info.plist */,
 			);
 			path = TestYandexDeliveryIOS;
+			sourceTree = "<group>";
+		};
+		84BAE8D728F93BE0000330A0 /* Stroryboards */ = {
+			isa = PBXGroup;
+			children = (
+				84BAE8CE28F8654C000330A0 /* LaunchScreen.storyboard */,
+				84BAE8C928F86548000330A0 /* Main.storyboard */,
+			);
+			path = Stroryboards;
+			sourceTree = "<group>";
+		};
+		84BAE8E028F93DDC000330A0 /* MainMenuModule */ = {
+			isa = PBXGroup;
+			children = (
+				84BAE8FE28F9415C000330A0 /* Router */,
+				84BAE8E428F93E0A000330A0 /* Extensions */,
+				84BAE8E328F93E04000330A0 /* Cells */,
+				84BAE8E228F93DF8000330A0 /* Presenter */,
+				84BAE8E128F93DEE000330A0 /* View */,
+			);
+			path = MainMenuModule;
+			sourceTree = "<group>";
+		};
+		84BAE8E128F93DEE000330A0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84BAE8F228F93FFC000330A0 /* MainMenuViewController.swift */,
+				84BAE8F328F93FFC000330A0 /* MainMenuViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84BAE8E228F93DF8000330A0 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				84BAE8F628F94025000330A0 /* MainMenuViewPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		84BAE8E328F93E04000330A0 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				84BAE90828F9662C000330A0 /* CollectionViewCells */,
+				84BAE90728F96621000330A0 /* TableViewCells */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		84BAE8E428F93E0A000330A0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				84BAE8FC28F9407F000330A0 /* MainMenuViewController+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		84BAE8E528F93E3B000330A0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				84BAE8EE28F93FC6000330A0 /* ProductCategories.swift */,
+				84BAE8F028F93FD8000330A0 /* Products.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		84BAE8E628F93E42000330A0 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				84BAE8E728F93E5E000330A0 /* AlamofireAPIProvider */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		84BAE8E728F93E5E000330A0 /* AlamofireAPIProvider */ = {
+			isa = PBXGroup;
+			children = (
+				84BAE8EC28F93ED9000330A0 /* AlamofireAPIProvider.swift */,
+			);
+			path = AlamofireAPIProvider;
+			sourceTree = "<group>";
+		};
+		84BAE8E828F93E87000330A0 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				84BAE8E928F93E98000330A0 /* URLConstants */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		84BAE8E928F93E98000330A0 /* URLConstants */ = {
+			isa = PBXGroup;
+			children = (
+				84BAE8EA28F93EBE000330A0 /* URLConstants.swift */,
+			);
+			path = URLConstants;
+			sourceTree = "<group>";
+		};
+		84BAE8FE28F9415C000330A0 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				84BAE8FF28F941B3000330A0 /* MainMenuRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		84BAE90428F95A32000330A0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				84BAE90528F95A50000330A0 /* UiImageView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		84BAE90728F96621000330A0 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				84BAE8F828F94050000330A0 /* MainMenuTableViewCell.swift */,
+				84BAE8F928F94050000330A0 /* MainMenuTableViewCell.xib */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		84BAE90828F9662C000330A0 /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				84BAE90928F966B2000330A0 /* CategoriesCollectionViewCell.swift */,
+				84BAE90A28F966B2000330A0 /* CategoriesCollectionViewCell.xib */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		84BAE90D28F96BC0000330A0 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				84BAE8E028F93DDC000330A0 /* MainMenuModule */,
+			);
+			path = Modules;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +261,9 @@
 			dependencies = (
 			);
 			name = TestYandexDeliveryIOS;
+			packageProductDependencies = (
+				84BAE90228F954C0000330A0 /* Alamofire */,
+			);
 			productName = TestYandexDeliveryIOS;
 			productReference = 84BAE8C028F86548000330A0 /* TestYandexDeliveryIOS.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +292,9 @@
 				Base,
 			);
 			mainGroup = 84BAE8B728F86548000330A0;
+			packageReferences = (
+				84BAE90128F954C0000330A0 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 84BAE8C128F86548000330A0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,9 +309,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84BAE8F528F93FFC000330A0 /* MainMenuViewController.xib in Resources */,
 				84BAE8D028F8654C000330A0 /* LaunchScreen.storyboard in Resources */,
+				84BAE90C28F966B2000330A0 /* CategoriesCollectionViewCell.xib in Resources */,
 				84BAE8CD28F8654C000330A0 /* Assets.xcassets in Resources */,
 				84BAE8CB28F86548000330A0 /* Main.storyboard in Resources */,
+				84BAE8FB28F94050000330A0 /* MainMenuTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +325,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84BAE8C828F86548000330A0 /* ViewController.swift in Sources */,
+				84BAE8F128F93FD8000330A0 /* Products.swift in Sources */,
+				84BAE8F728F94025000330A0 /* MainMenuViewPresenter.swift in Sources */,
+				84BAE90B28F966B2000330A0 /* CategoriesCollectionViewCell.swift in Sources */,
 				84BAE8C428F86548000330A0 /* AppDelegate.swift in Sources */,
+				84BAE8EF28F93FC6000330A0 /* ProductCategories.swift in Sources */,
 				84BAE8C628F86548000330A0 /* SceneDelegate.swift in Sources */,
+				84BAE8ED28F93ED9000330A0 /* AlamofireAPIProvider.swift in Sources */,
+				84BAE8DB28F93CD7000330A0 /* RouterTabBarViewController.swift in Sources */,
+				84BAE90628F95A50000330A0 /* UiImageView+Extension.swift in Sources */,
+				84BAE8FD28F9407F000330A0 /* MainMenuViewController+Extension.swift in Sources */,
+				84BAE8F428F93FFC000330A0 /* MainMenuViewController.swift in Sources */,
+				84BAE8EB28F93EBE000330A0 /* URLConstants.swift in Sources */,
+				84BAE90028F941B3000330A0 /* MainMenuRouter.swift in Sources */,
+				84BAE8DD28F93CE8000330A0 /* TabBarViewController.swift in Sources */,
+				84BAE8D928F93C61000330A0 /* ModuleBuilder.swift in Sources */,
+				84BAE8FA28F94050000330A0 /* MainMenuTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +558,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		84BAE90128F954C0000330A0 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		84BAE90228F954C0000330A0 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84BAE90128F954C0000330A0 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 84BAE8B828F86548000330A0 /* Project object */;
 }

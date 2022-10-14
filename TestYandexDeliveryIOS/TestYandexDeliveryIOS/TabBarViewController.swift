@@ -6,3 +6,15 @@
 //
 
 import Foundation
+import UIKit
+
+class TabBarViewController: UITabBarController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        tabBar.tintColor = .red
+        tabBar.unselectedItemTintColor = .black
+    
+    }
+}
