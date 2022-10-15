@@ -10,8 +10,8 @@ import UIKit
 import Alamofire
 
 protocol RestAPIProviderProtocol {
-    func getCategories(completion: @escaping (Result<ProductCategories, Error>) -> Void)
-    func getProducts(completion: @escaping (Result<Products, Error>) -> Void)
+    func getCategories(completion: @escaping (Result<[Categories], Error>) -> Void)
+    func getProducts(completion: @escaping (Result<[Products], Error>) -> Void)
 }
 
 class AlamofireAPIProvider: RestAPIProviderProtocol {
@@ -26,8 +26,8 @@ class AlamofireAPIProvider: RestAPIProviderProtocol {
         "X-RapidAPI-Host" : "burger-king-menu.p.rapidapi.com"
     ]
     
-    func getCategories(completion: @escaping (Result<ProductCategories, Error>) -> Void) {
-        AF.request(URLConstants.getProductCategories, method: .get, headers: AlamofireAPIProvider.headers).responseDecodable(of: ProductCategories.self) { response in
+    func getCategories(completion: @escaping (Result<[Categories], Error>) -> Void) {
+        AF.request(URLConstants.getProductCategories, method: .get, headers: AlamofireAPIProvider.headers).responseDecodable(of: [Categories].self) { response in
             switch response.result {
             case .success(let result):
                 completion(.success(result))
@@ -38,8 +38,8 @@ class AlamofireAPIProvider: RestAPIProviderProtocol {
         }
     }
     
-    func getProducts(completion: @escaping (Result<Products, Error>) -> Void) {
-        AF.request(URLConstants.getProducts, method: .get, headers: AlamofireAPIProvider.headers).responseDecodable(of: Products.self) { response in
+    func getProducts(completion: @escaping (Result<[Products], Error>) -> Void) {
+        AF.request(URLConstants.getProducts, method: .get, headers: AlamofireAPIProvider.headers).responseDecodable(of: [Products].self) { response in
             switch response.result {
             case .success(let result):
                 completion(.success(result))

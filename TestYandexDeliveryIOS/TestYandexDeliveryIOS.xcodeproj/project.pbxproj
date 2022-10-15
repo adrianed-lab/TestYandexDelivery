@@ -17,7 +17,7 @@
 		84BAE8DD28F93CE8000330A0 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BAE8DC28F93CE8000330A0 /* TabBarViewController.swift */; };
 		84BAE8EB28F93EBE000330A0 /* URLConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BAE8EA28F93EBE000330A0 /* URLConstants.swift */; };
 		84BAE8ED28F93ED9000330A0 /* AlamofireAPIProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BAE8EC28F93ED9000330A0 /* AlamofireAPIProvider.swift */; };
-		84BAE8EF28F93FC6000330A0 /* ProductCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BAE8EE28F93FC6000330A0 /* ProductCategories.swift */; };
+		84BAE8EF28F93FC6000330A0 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BAE8EE28F93FC6000330A0 /* Categories.swift */; };
 		84BAE8F128F93FD8000330A0 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BAE8F028F93FD8000330A0 /* Products.swift */; };
 		84BAE8F428F93FFC000330A0 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BAE8F228F93FFC000330A0 /* MainMenuViewController.swift */; };
 		84BAE8F528F93FFC000330A0 /* MainMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84BAE8F328F93FFC000330A0 /* MainMenuViewController.xib */; };
@@ -30,6 +30,18 @@
 		84BAE90628F95A50000330A0 /* UiImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BAE90528F95A50000330A0 /* UiImageView+Extension.swift */; };
 		84BAE90B28F966B2000330A0 /* CategoriesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BAE90928F966B2000330A0 /* CategoriesCollectionViewCell.swift */; };
 		84BAE90C28F966B2000330A0 /* CategoriesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84BAE90A28F966B2000330A0 /* CategoriesCollectionViewCell.xib */; };
+		84DE664D28F9762D00E60879 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DE664B28F9762D00E60879 /* ContactsViewController.swift */; };
+		84DE664E28F9762D00E60879 /* ContactsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84DE664C28F9762D00E60879 /* ContactsViewController.xib */; };
+		84DE665028F9765200E60879 /* ContactsViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DE664F28F9765200E60879 /* ContactsViewPresenter.swift */; };
+		84DE665228F9767100E60879 /* ContactsViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DE665128F9767100E60879 /* ContactsViewRouter.swift */; };
+		84DE665428F9785A00E60879 /* ProfileViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DE665328F9785A00E60879 /* ProfileViewRouter.swift */; };
+		84DE665628F9788C00E60879 /* ProfileViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DE665528F9788C00E60879 /* ProfileViewPresenter.swift */; };
+		84DE665928F978EE00E60879 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DE665728F978EE00E60879 /* ProfileViewController.swift */; };
+		84DE665A28F978EE00E60879 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84DE665828F978EE00E60879 /* ProfileViewController.xib */; };
+		84DE665C28F97B8D00E60879 /* ShoppingCartRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DE665B28F97B8D00E60879 /* ShoppingCartRouter.swift */; };
+		84DE665E28F97C4A00E60879 /* ShoppingCartViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DE665D28F97C4A00E60879 /* ShoppingCartViewPresenter.swift */; };
+		84DE666128F97CA400E60879 /* ShoppingCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DE665F28F97CA400E60879 /* ShoppingCartViewController.swift */; };
+		84DE666228F97CA400E60879 /* ShoppingCartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84DE666028F97CA400E60879 /* ShoppingCartViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,7 +57,7 @@
 		84BAE8DC28F93CE8000330A0 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		84BAE8EA28F93EBE000330A0 /* URLConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLConstants.swift; sourceTree = "<group>"; };
 		84BAE8EC28F93ED9000330A0 /* AlamofireAPIProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireAPIProvider.swift; sourceTree = "<group>"; };
-		84BAE8EE28F93FC6000330A0 /* ProductCategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCategories.swift; sourceTree = "<group>"; };
+		84BAE8EE28F93FC6000330A0 /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
 		84BAE8F028F93FD8000330A0 /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
 		84BAE8F228F93FFC000330A0 /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
 		84BAE8F328F93FFC000330A0 /* MainMenuViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenuViewController.xib; sourceTree = "<group>"; };
@@ -57,6 +69,18 @@
 		84BAE90528F95A50000330A0 /* UiImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UiImageView+Extension.swift"; sourceTree = "<group>"; };
 		84BAE90928F966B2000330A0 /* CategoriesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesCollectionViewCell.swift; sourceTree = "<group>"; };
 		84BAE90A28F966B2000330A0 /* CategoriesCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoriesCollectionViewCell.xib; sourceTree = "<group>"; };
+		84DE664B28F9762D00E60879 /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		84DE664C28F9762D00E60879 /* ContactsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactsViewController.xib; sourceTree = "<group>"; };
+		84DE664F28F9765200E60879 /* ContactsViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewPresenter.swift; sourceTree = "<group>"; };
+		84DE665128F9767100E60879 /* ContactsViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewRouter.swift; sourceTree = "<group>"; };
+		84DE665328F9785A00E60879 /* ProfileViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewRouter.swift; sourceTree = "<group>"; };
+		84DE665528F9788C00E60879 /* ProfileViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewPresenter.swift; sourceTree = "<group>"; };
+		84DE665728F978EE00E60879 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		84DE665828F978EE00E60879 /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		84DE665B28F97B8D00E60879 /* ShoppingCartRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartRouter.swift; sourceTree = "<group>"; };
+		84DE665D28F97C4A00E60879 /* ShoppingCartViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartViewPresenter.swift; sourceTree = "<group>"; };
+		84DE665F28F97CA400E60879 /* ShoppingCartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartViewController.swift; sourceTree = "<group>"; };
+		84DE666028F97CA400E60879 /* ShoppingCartViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShoppingCartViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,7 +189,7 @@
 		84BAE8E528F93E3B000330A0 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				84BAE8EE28F93FC6000330A0 /* ProductCategories.swift */,
+				84BAE8EE28F93FC6000330A0 /* Categories.swift */,
 				84BAE8F028F93FD8000330A0 /* Products.swift */,
 			);
 			path = Models;
@@ -241,8 +265,116 @@
 			isa = PBXGroup;
 			children = (
 				84BAE8E028F93DDC000330A0 /* MainMenuModule */,
+				84DE663F28F9755F00E60879 /* ContactsModule */,
+				84DE664028F9756E00E60879 /* ProfileModule */,
+				84DE664128F9757D00E60879 /* ShoppingCartModule */,
 			);
 			path = Modules;
+			sourceTree = "<group>";
+		};
+		84DE663F28F9755F00E60879 /* ContactsModule */ = {
+			isa = PBXGroup;
+			children = (
+				84DE664428F975CC00E60879 /* Router */,
+				84DE664328F975C400E60879 /* Presenter */,
+				84DE664228F975BA00E60879 /* View */,
+			);
+			path = ContactsModule;
+			sourceTree = "<group>";
+		};
+		84DE664028F9756E00E60879 /* ProfileModule */ = {
+			isa = PBXGroup;
+			children = (
+				84DE664728F975F100E60879 /* Router */,
+				84DE664628F975EB00E60879 /* Presenter */,
+				84DE664528F975E300E60879 /* View */,
+			);
+			path = ProfileModule;
+			sourceTree = "<group>";
+		};
+		84DE664128F9757D00E60879 /* ShoppingCartModule */ = {
+			isa = PBXGroup;
+			children = (
+				84DE664A28F9760900E60879 /* Router */,
+				84DE664928F9760200E60879 /* Presenter */,
+				84DE664828F975FD00E60879 /* View */,
+			);
+			path = ShoppingCartModule;
+			sourceTree = "<group>";
+		};
+		84DE664228F975BA00E60879 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84DE664B28F9762D00E60879 /* ContactsViewController.swift */,
+				84DE664C28F9762D00E60879 /* ContactsViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84DE664328F975C400E60879 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				84DE664F28F9765200E60879 /* ContactsViewPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		84DE664428F975CC00E60879 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				84DE665128F9767100E60879 /* ContactsViewRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		84DE664528F975E300E60879 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84DE665728F978EE00E60879 /* ProfileViewController.swift */,
+				84DE665828F978EE00E60879 /* ProfileViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84DE664628F975EB00E60879 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				84DE665528F9788C00E60879 /* ProfileViewPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		84DE664728F975F100E60879 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				84DE665328F9785A00E60879 /* ProfileViewRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		84DE664828F975FD00E60879 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84DE665F28F97CA400E60879 /* ShoppingCartViewController.swift */,
+				84DE666028F97CA400E60879 /* ShoppingCartViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84DE664928F9760200E60879 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				84DE665D28F97C4A00E60879 /* ShoppingCartViewPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		84DE664A28F9760900E60879 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				84DE665B28F97B8D00E60879 /* ShoppingCartRouter.swift */,
+			);
+			path = Router;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,10 +441,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84DE664E28F9762D00E60879 /* ContactsViewController.xib in Resources */,
 				84BAE8F528F93FFC000330A0 /* MainMenuViewController.xib in Resources */,
+				84DE665A28F978EE00E60879 /* ProfileViewController.xib in Resources */,
 				84BAE8D028F8654C000330A0 /* LaunchScreen.storyboard in Resources */,
 				84BAE90C28F966B2000330A0 /* CategoriesCollectionViewCell.xib in Resources */,
 				84BAE8CD28F8654C000330A0 /* Assets.xcassets in Resources */,
+				84DE666228F97CA400E60879 /* ShoppingCartViewController.xib in Resources */,
 				84BAE8CB28F86548000330A0 /* Main.storyboard in Resources */,
 				84BAE8FB28F94050000330A0 /* MainMenuTableViewCell.xib in Resources */,
 			);
@@ -329,18 +464,27 @@
 				84BAE8F728F94025000330A0 /* MainMenuViewPresenter.swift in Sources */,
 				84BAE90B28F966B2000330A0 /* CategoriesCollectionViewCell.swift in Sources */,
 				84BAE8C428F86548000330A0 /* AppDelegate.swift in Sources */,
-				84BAE8EF28F93FC6000330A0 /* ProductCategories.swift in Sources */,
+				84DE666128F97CA400E60879 /* ShoppingCartViewController.swift in Sources */,
+				84DE664D28F9762D00E60879 /* ContactsViewController.swift in Sources */,
+				84BAE8EF28F93FC6000330A0 /* Categories.swift in Sources */,
+				84DE665928F978EE00E60879 /* ProfileViewController.swift in Sources */,
 				84BAE8C628F86548000330A0 /* SceneDelegate.swift in Sources */,
 				84BAE8ED28F93ED9000330A0 /* AlamofireAPIProvider.swift in Sources */,
 				84BAE8DB28F93CD7000330A0 /* RouterTabBarViewController.swift in Sources */,
 				84BAE90628F95A50000330A0 /* UiImageView+Extension.swift in Sources */,
+				84DE665628F9788C00E60879 /* ProfileViewPresenter.swift in Sources */,
+				84DE665C28F97B8D00E60879 /* ShoppingCartRouter.swift in Sources */,
 				84BAE8FD28F9407F000330A0 /* MainMenuViewController+Extension.swift in Sources */,
+				84DE665428F9785A00E60879 /* ProfileViewRouter.swift in Sources */,
 				84BAE8F428F93FFC000330A0 /* MainMenuViewController.swift in Sources */,
 				84BAE8EB28F93EBE000330A0 /* URLConstants.swift in Sources */,
 				84BAE90028F941B3000330A0 /* MainMenuRouter.swift in Sources */,
+				84DE665028F9765200E60879 /* ContactsViewPresenter.swift in Sources */,
 				84BAE8DD28F93CE8000330A0 /* TabBarViewController.swift in Sources */,
 				84BAE8D928F93C61000330A0 /* ModuleBuilder.swift in Sources */,
 				84BAE8FA28F94050000330A0 /* MainMenuTableViewCell.swift in Sources */,
+				84DE665228F9767100E60879 /* ContactsViewRouter.swift in Sources */,
+				84DE665E28F97C4A00E60879 /* ShoppingCartViewPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

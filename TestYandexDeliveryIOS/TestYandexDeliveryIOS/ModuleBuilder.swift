@@ -27,16 +27,30 @@ class ModuleBuilder: BuilderProtocol {
     }
     
     func createContactsModule(title: String, image: UIImage?) -> UIViewController {
-        <#code#>
+        let view = ContactsViewController()
+        let router = ContactsRouter(builder: self, viewController: view)
+        let apiProvider = AlamofireAPIProvider()
+        let presenter = ContactsViewPresenter(view: view, router: router, apiProvider: apiProvider)
+        view.presenter = presenter
+        return view
     }
     
     func createProfileModule(title: String, image: UIImage?) -> UIViewController {
-        <#code#>
+        let view = ProfileViewController()
+        let router = ProfileRouter(builder: self, viewController: view)
+        let apiProvider = AlamofireAPIProvider()
+        let presenter = ProfileViewPresenter(view: view, router: router, apiProvider: apiProvider)
+        view.presenter = presenter
+        return view
     }
     
     func createShoppingCartModule(title: String, image: UIImage?) -> UIViewController {
-        <#code#>
+        let view = ShoppingCartViewController()
+        let router = ShoppingCartRouter(builder: self, viewController: view)
+        let apiProvider = AlamofireAPIProvider()
+        let presenter = ShoppingCartViewPresenter(view: view, router: router, apiProvider: apiProvider)
+        view.presenter = presenter
+        return view
     }
-    
-    
+
 }
